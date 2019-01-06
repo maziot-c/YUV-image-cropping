@@ -2,47 +2,13 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define DEBUG
+// #define DEBUG
 
 #if defined(DEBUG)
 #define debug printf
 #else
 #define debug
 #endif
-
-// typedef enum
-// {
-//     YUV422I_UYVY = 0x0000,
-//     /**< YUV 422 Interleaved format - UYVY. */
-//     YUV422I_YUYV = 0x0001,
-//     /**< YUV 422 Interleaved format - YUYV. */
-//     YUV422I_YVYU = 0x0002,
-//     /**< YUV 422 Interleaved format - YVYU. */
-//     YUV422I_VYUY = 0x0003,
-//     /**< YUV 422 Interleaved format - VYUY. */
-//     YUV422SP_UV = 0x0004,
-//     /**< YUV 422 Semi-Planar - Y separate, UV interleaved. */
-//     YUV422SP_VU = 0x0005,
-//     /**< YUV 422 Semi-Planar - Y separate, VU interleaved. */
-//     YUV422P = 0x0006,
-//     /**< YUV 422 Planar - Y, U and V separate. */
-
-//     YUV420SP_UV = 0x0007,
-//     /**< YUV 420 Semi-Planar - Y separate, UV interleaved. */
-//     YUV420SP_VU = 0x0008,
-//     /**< YUV 420 Semi-Planar - Y separate, VU interleaved. */
-//     YUV420P = 0x0009,
-//     /**< YUV 420 Planar - Y, U and V separate. */
-
-//     YUV444P = 0x000A,
-//     /**< YUV 444 Planar - Y, U and V separate. */
-//     YUV444I = 0x000B,
-//     /**< YUV 444 interleaved - YUVYUV... */
-//     INVALID,
-//     /**< Invalid data format. Could be used to initialize variables. */
-// } DataFormat;
-
-// ./app fmt file iw ih ox oy ow oh
 
 char fmt[16];           // foramt
 char src_file_name[16]; // src file name
