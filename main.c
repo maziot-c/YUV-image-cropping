@@ -80,7 +80,7 @@ int parsing_main_arguments(int argc, char const *argv[])
     if(argc !=  9)
     {
         printf("usage: ./app fmt file iw ih ox oy ow oh\n");
-        printf("eg   : ./app YUV420SP_VU pic.yuv420sp_vu 1920 1080 0 0 1280 960\n");
+        printf("eg   : ./app YUV420SP_VU xxx.yuv420sp_vu 1920 1080 0 0 1280 960\n");
         printf("\n");
         return -1;
     }
