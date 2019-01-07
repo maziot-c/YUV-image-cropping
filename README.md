@@ -4,7 +4,7 @@
 
 ### 目前状态
 
-计划支持以下 YUV 图像格式。
+计划支持以下 YUV 图像格式:
 
     typedef enum
     {
@@ -38,7 +38,7 @@
         /**< Invalid data format. Could be used to initialize variables. */
     } DataFormat;
 
-目前支出的格式有：
+目前支持的格式有：
 
 - YUV422SP_UV
 
