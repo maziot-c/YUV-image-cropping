@@ -4,7 +4,16 @@
 
 ### 目前状态
 
-计划支持以下 YUV 图像格式:
+命令格式：`./app <format> <ifn> <ofn> <iw> <ih> <ox> <oy> <ow> <oh>`  
+
+    format: 输入图像的格式
+    ifn： input file name 原始图像文件名
+    ofn： output file name 输出图像文件名
+    iw, ih: input width， input height 原始图像宽高
+    ox, oy: output x, output y 从原始图像 (x, y) 位置开始裁剪
+    ow, oh: output w, output h 裁剪的宽高，也是输出图像的宽高
+
+计划支持以下 YUV 图像格式：
 
     typedef enum
     {
